@@ -1,0 +1,5 @@
+/venv38
+/__pycache__
+/api/__pycache__
+/docs
+/api/routes/__pycache__

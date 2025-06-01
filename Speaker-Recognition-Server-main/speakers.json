@@ -1,0 +1,53 @@
+{
+  "speakers": [
+    {
+      "id": "3b6bd9ac-c643-4e0c-af63-3f3da3fbfee8",
+      "name": "Emir Yıldırımlar",
+      "createdAt": "2025-05-30T04:13:55.515530+00:00",
+      "audioUrl": "uploads\\3b6bd9ac-c643-4e0c-af63-3f3da3fbfee8.wav",
+      "embeddingId": "3b6bd9ac-c643-4e0c-af63-3f3da3fbfee8"
+    },
+    {
+      "id": "93e99589-3020-49a6-a7ba-32634c665d76",
+      "name": "sessizlik ",
+      "createdAt": "2025-05-30T04:18:08.189180+00:00",
+      "audioUrl": "uploads\\93e99589-3020-49a6-a7ba-32634c665d76.wav",
+      "embeddingId": "93e99589-3020-49a6-a7ba-32634c665d76"
+    },
+    {
+      "id": "4134032b-d230-4186-bd7d-ed35211b5de6",
+      "name": "Ruhi Çenet ",
+      "createdAt": "2025-05-30T04:23:50.304319+00:00",
+      "audioUrl": "uploads\\4134032b-d230-4186-bd7d-ed35211b5de6.wav",
+      "embeddingId": "4134032b-d230-4186-bd7d-ed35211b5de6"
+    },
+    {
+      "id": "6607a9ac-b8c9-435b-b809-f8f664bcd805",
+      "name": "Celal Şengör ",
+      "createdAt": "2025-05-30T04:26:24.516841+00:00",
+      "audioUrl": "uploads\\6607a9ac-b8c9-435b-b809-f8f664bcd805.wav",
+      "embeddingId": "6607a9ac-b8c9-435b-b809-f8f664bcd805"
+    },
+    {
+      "id": "a242bc18-0298-46b6-852f-70f01af90511",
+      "name": "Sümeyra ",
+      "createdAt": "2025-05-30T04:30:21.137236+00:00",
+      "audioUrl": "uploads\\a242bc18-0298-46b6-852f-70f01af90511.wav",
+      "embeddingId": "a242bc18-0298-46b6-852f-70f01af90511"
+    },
+    {
+      "id": "2e311e23-36b0-4c29-9b3a-ba691c19751a",
+      "name": "Billie Eilish",
+      "createdAt": "2025-05-30T04:32:37.731628+00:00",
+      "audioUrl": "uploads\\2e311e23-36b0-4c29-9b3a-ba691c19751a.wav",
+      "embeddingId": "2e311e23-36b0-4c29-9b3a-ba691c19751a"
+    },
+    {
+      "id": "9e113afa-5962-49ee-b761-f53a665436c0",
+      "name": "aaaa",
+      "createdAt": "2025-05-30T09:13:28.427181+00:00",
+      "audioUrl": "uploads\\9e113afa-5962-49ee-b761-f53a665436c0.wav",
+      "embeddingId": "9e113afa-5962-49ee-b761-f53a665436c0"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Base.Theme.SpeakerRecoginitonFinal2 geçici olarak kaldırıldı -->
+    <!-- <style name="Base.Theme.SpeakerRecoginitonFinal2" parent="Theme.Material3.DayNight.NoActionBar"> -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- <item name="android:statusBarColor">@android:color/transparent</item> -->
+        <!-- <item name="android:navigationBarColor">@android:color/transparent</item> -->
+    <!-- </style> -->
+
+    <style name="Theme.SpeakerRecoginitonFinal2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Tüm item'lar geçici olarak kaldırıldı -->
+    </style>
+</resources>

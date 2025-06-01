@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Speaker Recognition</string>
+
+    <!-- HomeScreen -->
+    <string name="speakers_title">Konuşmacılar</string>
+    <string name="add_new_speaker">Yeni Konuşmacı Ekle</string>
+    <string name="server_unreachable_error">Sunucuya Ulaşılamıyor</string>
+    <string name="check_connection_or_server_error">Lütfen internet bağlantınızı kontrol edin veya sunucunun çalıştığından emin olun.</string>
+    <string name="registration_failed_error">Kayıt Başarısız</string>
+    <string name="recognition_failed_error">Tanıma Başarısız</string>
+    <string name="no_speakers_registered">Kayıtlı konuşmacı bulunmuyor.</string>
+    <string name="selected_speaker_label">Seçili Konuşmacı: %1$s</string>
+    <string name="no_speaker_selected">Henüz bir konuşmacı seçilmedi.</string>
+    <string name="record_button_label_record">KAYIT</string>
+    <string name="record_button_label_stop">DURDUR</string>
+    <string name="test_button_label_test">TEST ET</string>
+    <string name="test_button_label_testing">TEST EDİLİYOR</string>
+    <string name="api_key_info_title">API Anahtarı Bilgisi</string>
+    <string name="api_key_info_message">API anahtarı alınamadı veya geçersiz. Lütfen ayarları kontrol edin.</string>
+    <string name="api_key_missing_title">API Anahtarı Eksik</string>
+    <string name="api_key_missing_message">API anahtarı ayarlanmamış. Lütfen BuildConfig üzerinden API anahtarınızı ekleyin.</string>
+
+
+    <!-- AddSpeakerDialog -->
+    <string name="speaker_name_label">Konuşmacı Adı</string>
+    <string name="cancel_button">İptal</string>
+    <string name="add_button">Ekle</string>
+
+    <!-- InfoDialog & TestResultDialog & DeleteConfirmationDialog (Genel) -->
+    <string name="dialog_close_button">Kapat</string>
+    <string name="answer_yes">Evet</string>
+    <string name="answer_no">Hayır</string>
+
+    <!-- TestResultDialog -->
+    <string name="recognition_result_title">Test Tanıma Sonucu</string>
+    <string name="message_label">Genel Mesaj: %1$s</string>
+    <string name="match_status_label">Eşleşme Bulundu: %1$s</string>
+    <string name="identified_speaker_label">Tanınan Konuşmacı: %1$s</string>
+    <string name="confidence_label">Güven Skoru: %.2f%%</string>
+    <string name="threshold_status_label">Eşik Değer Karşılandı: %1$s</string>
+    <string name="required_threshold_label">Gerekli Eşik Değer: %.2f%%</string>
+    <string name="all_matches_title">Tüm Eşleşmeler:</string>
+    <string name="speaker_id_label">Konuşmacı ID: %1$s</string>
+    <string name="name_label">İsim: %1$s</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="score_label">Skor: %.2f%%</string>
+    <string name="start_record_specific_test">Belirli Test İçin Kayıt Başlat</string>
+
+    <!-- SpeakerList -->
+    <string name="selected_icon_content_description">Seçildi</string>
+
+    <!-- Genel Hata Mesajları -->
+    <string name="error_occurred">Bir hata oluştu.</string>
+    <string name="error_unknown">Bilinmeyen bir hata oluştu.</string>
+    <string name="error_network">Ağ hatası. Lütfen bağlantınızı kontrol edin.</string>
+    <string name="error_server_communication">Sunucu ile iletişimde hata.</string>
+    <string name="error_invalid_response">Sunucudan geçersiz yanıt alındı.</string>
+    <string name="error_no_selected_speaker">Lütfen önce bir konuşmacı seçin.</string>
+    <string name="error_audio_short">Ses kaydı çok kısa. Lütfen daha uzun bir kayıt yapın.</string>
+    <string name="error_audio_processing">Ses işlenirken bir hata oluştu.</string>
+    <string name="error_speaker_not_found">Konuşmacı bulunamadı.</string>
+    <string name="error_registration_failed_detailed">Konuşmacı kaydı başarısız oldu: %1$s</string>
+    <string name="error_recognition_failed_detailed">Konuşmacı tanıma başarısız oldu: %1$s</string>
+    <string name="error_min_record_time_not_reached">Minimum %1$d saniye kayıt yapılmalıdır.</string>
+
+
+    <!-- Başarı Mesajları -->
+    <string name="success_registration">Konuşmacı başarıyla kaydedildi: %1$s</string>
+    <string name="success_ping">Sunucu bağlantısı başarılı.</string>
+    <string name="speaker_deleted_message">%1$s adlı konuşmacı silindi.</string>
+
+
+    <!-- Diğer UI Metinleri -->
+    <string name="ping_server_button">Sunucuyu Ping\'le</string>
+    <string name="delete_speaker_button">Konuşmacıyı Sil</string>
+    <string name="delete_speaker_confirmation_title">Konuşmacıyı Sil</string>
+    <string name="delete_speaker_confirmation_message">%1$s adlı konuşmacıyı silmek istediğinizden emin misiniz?</string>
+    <string name="delete_failed_message">Konuşmacı silinemedi: %1$s</string>
+    <string name="status_label">Durum:</string>
+    <string name="timer_label">Süre:</string>
+    <string name="recording_permission_denied_title">Kayıt İzni Reddedildi</string>
+    <string name="recording_permission_denied_message">Ses kaydı yapabilmek için mikrofon izni vermeniz gerekmektedir. Lütfen uygulama ayarlarından izni etkinleştirin.</string>
+    <string name="open_settings">Ayarları Aç</string>
+    <string name="recording_toast_message">Kayıt yapılıyor: %1$d saniye</string>
+    <string name="recording_stopped_toast_message">Kayıt durduruldu. Süre: %1$s</string>
+    <string name="no_audio_recorded_message">Ses kaydı bulunamadı.</string>
+    <string name="processing_audio_message">Ses işleniyor...</string>
+    <string name="uploading_audio_message">Ses yükleniyor...</string>
+    <string name="speaker_name_empty_error_message">Konuşmacı adı boş olamaz.</string>
+    <string name="start_recording_instruction">Kayıt başlatmak için butona basın.</string>
+    <string name="stop_recording_instruction">Kaydı durdurmak için butona tekrar basın.</string>
+    <string name="select_speaker_instruction">Lütfen listeden bir konuşmacı seçin veya yeni bir konuşmacı ekleyin.</string>
+    <string name="training_model_title">Model Eğitiliyor</string>
+    <string name="training_model_message">Model eğitiliyor, lütfen bekleyin. Bu işlem biraz zaman alabilir.</string>
+    <string name="training_status_checking_title">Eğitim Durumu Kontrol Ediliyor</string>
+    <string name="training_status_checking_message">Model eğitim durumu kontrol ediliyor...</string>
+    <string name="training_successful_title">Eğitim Başarılı</string>
+    <string name="training_successful_message">Model başarıyla eğitildi.</string>
+    <string name="training_failed_title">Eğitim Başarısız</string>
+    <string name="training_failed_message">Model eğitimi başarısız oldu: %1$s</string>
+    <string name="training_needed_title">Eğitim Gerekli</string>
+    <string name="training_needed_message">Yeni konuşmacı eklendi veya mevcut konuşmacı güncellendi. Modelin yeniden eğitilmesi gerekiyor.</string>
+    <string name="train_model_button">Modeli Eğit</string>
+    <string name="training_not_needed_message">Model güncel, eğitime gerek yok.</string>
+    <string name="training_status_unknown_message">Model eğitim durumu bilinmiyor.</string>
+    <string name="training_status_label">Eğitim Durumu: %1$s</string>
+    <string name="last_trained_label">Son Eğitim: %1$s</string>
+<!-- HomeScreen - Ek Stringler -->
+    <string name="app_name_long">Konuşmacı Tanıma Uygulaması</string>
+    <string name="drawer_menu_content_description">Menüyü Aç/Kapa</string>
+    <string name="add_speaker_fab_content_description">Yeni Konuşmacı Ekle</string>
+    <string name="warning_icon_content_description">Uyarı</string>
+    <string name="test_mode_banner">TEST MODU: Gerçek sunucu bağlantısı yok!</string>
+    <string name="server_connection_lost_banner">Sunucu Bağlantısı Yok!</string>
+    <string name="error_loading_speakers">Konuşmacılar yüklenemedi: %1$s</string>
+    <string name="new_speaker_registration_title">Yeni Konuşmacı Kaydı</string>
+    <string name="stop_record_and_save">Kaydı Durdur ve Kaydet</string>
+    <string name="start_record_new_speaker">Kayıt Başlat (Yeni Konuşmacı)</string>
+    <string name="recording_started">Kayıt başladı.</string>
+    <string name="requesting_audio_permission">Ses kayıt izni isteniyor...</string>
+    <string name="stop_record_and_recognize">Kaydı Durdur ve Tanı</string>
+    <string name="start_record_for_test">Test İçin Kayıt Başlat</string>
+    <string name="test_recording_started">Test için kayıt başladı.</string>
+    <string name="test_recording_failed">Test kaydı alınamadı.</string>
+    <string name="ping_successful_title">Ping Başarılı</string>
+    <string name="server_reached_successfully">Sunucuya başarıyla ulaşıldı.</string>
+    <string name="ping_error_title">Ping Hatası</string>
+    <string name="registration_successful_title">Kayıt Başarılı</string>
+    <string name="speaker_registered_successfully">Konuşmacı \'%1$s\' başarıyla kaydedildi. %2$s</string>
+    <string name="speaker_registration_failed">Konuşmacı kaydedilemedi.</string>
+    <string name="recognition_error_title">Tanıma Hatası</string>
+    <string name="recognition_result_no_data">Tanıma sonucu alındı ancak veri bulunamadı.</string>
+    <string name="speaker_not_recognized">Konuşmacı tanınamadı.</string>
+    <string name="permission_required_title">İzin Gerekli</string>
+    <string name="permission_rationale_message_record_audio">Yeni konuşmacı kaydı yapabilmek için ses kayıt iznine ihtiyacımız var. Bu izin, sadece kayıt sırasında mikrofonunuza erişmek için kullanılacaktır.</string>
+    <string name="understand_and_allow_permission">Anladım ve İzin Ver</string>
+    <string name="requesting_audio_permission_again">Ses kayıt izni tekrar isteniyor...</string>
+    <string name="status_waiting">Durum bekleniyor...</string>
+    <string name="error_api_key_not_found_title">API Anahtarı Bulunamadı</string>
+    <string name="error_api_key_not_found_message">Lütfen `local.properties` dosyanızda `SPEAKER_RECOGNITION_API_KEY=\"YOUR_API_KEY\"` şeklinde API anahtarınızı tanımlayın.</string>
+    <string name="info_button_content_description">Bilgi</string>
+    <string name="train_model_error_no_speakers_title">Eğitim Hatası</string>
+    <string name="train_model_error_no_speakers_message">Modeli eğitmek için en az bir kayıtlı konuşmacı olmalıdır.</string>
+    <string name="delete_all_speakers_button">Tüm Konuşmacıları Sil</string>
+    <string name="delete_all_speakers_confirmation_title">Tüm Konuşmacıları Sil</string>
+    <string name="delete_all_speakers_confirmation_message">Tüm kayıtlı konuşmacıları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="all_speakers_deleted_message">Tüm konuşmacılar silindi.</string>
+    <string name="delete_all_speakers_failed_message">Tüm konuşmacılar silinemedi: %1$s</string>
+    <string name="not_trained_yet">Henüz eğitilmedi</string>
+&lt;string name="start_record_specific_test"&gt;Start Record for Test on %1$s&lt;/string&gt;
+
+    <!-- SpeakerViewModel için Ek Hata ve Bilgi Mesajları -->
+    <string name="error_invalid_audio_file_vm">Geçerli bir ses dosyası seçilmedi. (VM)</string>
+    <string name="error_loading_speaker_list_vm">Konuşmacı listesi yüklenemedi. (VM)</string>
+    <string name="error_ping_failed_vm">Sunucuya erişilemiyor: %s (VM)</string>
+    <string name="error_registration_failed_vm">Konuşmacı kaydedilemedi: %s (VM)</string>
+    <string name="error_recognition_failed_vm">Konuşmacı tanınamadı: %s (VM)</string>
+    <string name="info_recognition_successful_vm">Konuşmacı tanıma başarılı. (VM)</string>
+    <string name="info_no_match_found_vm">Eşleşme bulunamadı. (VM)</string>
+
+    <!-- Kayıt Durumları (ViewModel için) -->
+    <string name="recording_stopped_vm">Kayıt durduruldu. (VM)</string>
+    <string name="recording_stopped_for_testing_vm">Test için kayıt durduruldu. (VM)</string>
+    <string name="speaker_name_cannot_be_empty">Konuşmacı adı boş olamaz.</string>
+    <string name="error_invalid_audio_file">Geçersiz ses dosyası.</string>
+<!-- HomeScreen & SpeakerViewModel için eksik stringler -->
+    <string name="recording_stopped_and_saved">Kayıt durduruldu ve dosya kaydedildi.</string>
+    <string name="test_recording_failed_auto_stop">Test kaydı başarısız oldu (otomatik durdurma).</string>
+    <string name="test_recording_failed_manual_stop">Test kaydı başarısız oldu (manuel durdurma).</string>
+    <string name="error_loading_speaker_list_generic">Konuşmacı listesi yüklenirken bir hata oluştu.</string>
+    <string name="speaker_deleted_successfully">%1$s adlı konuşmacı başarıyla silindi.</string>
+    <string name="error_deleting_speaker_generic">Konuşmacı silinirken bir hata oluştu.</string>
+    <string name="info">Bilgi</string>
+    <string name="error">Hata</string>
+    <string name="speaker_deleted_successfully_no_message">%1$s adlı konuşmacı başarıyla silindi (Sunucudan ek mesaj yok).</string>
+</resources>
