@@ -1,23 +1,28 @@
+# Android build system
+.gradle/
+build/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# IntelliJ / Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
 local.properties
+
+# OS files
+.DS_Store
+
+# Test / Doc files
+/docs/
+*.md
+
+# Others (gereksiz büyükler veya kişisel plan dosyaları)
+roo_task_*
+.roo/
+TUM_PROJE_GECMISI_OZETI.md
+
+# Optionally ignore API integration guides if sadece dökümansa
 ANDROID_API_INTEGRATION_DETAILS.md
 ANDROID_MVVM_ARCHITECTURE_PLAN.md
-.roo/rules/rules.md
-TUM_PROJE_GECMISI_OZETI.md
-roo_task_may-27-2025_2-34-26-am.md
 ANDROID_MVVM_IMPLEMENTATION_STEPS.md
-.idea/deploymentTargetSelector.xml
-/docs
