@@ -1,5 +1,7 @@
 🎤 VoiceID | Konuşmacı Tanıma Sistemi
+
 ⚠️ English version is below ⬇️
+
 
 🇹🇷 Türkçe
 
@@ -7,22 +9,34 @@ VoiceID, FastAPI ve Android ile geliştirilen, ses verisiyle kullanıcıyı tan�
 Kullanıcı ses kaydı yapar, bu kayıt Python tabanlı sunucuya gönderilir, ECAPA-TDNN modeliyle analiz edilir ve kim olduğu tahmin edilir.
 
 🚀 Özellikler
+
 🗣️ Gerçek zamanlı konuşmacı tanıma
+
 📱 Android uygulama üzerinden ses gönderme
+
 🧠 ECAPA-TDNN modeliyle embedding çıkarma
+
 🧮 Cosine similarity ile eşleşme analizi
+
 📄 JSON formatında sonuç çıktısı
+
 🛠️ Kullanıcı ve embedding verisi JSON dosyalarında saklanır
 
 
 🛠️ Kullanılan Teknolojiler
 Android Studio (Java/Kotlin)
+
 Python + FastAPI
+
 SpeechBrain + ECAPA-TDNN
+
 HuggingFace pretrained model
+
 JSON tabanlı veri yönetimi
 
+
 📌 Not
+
 Bu proje Konya Teknik Üniversitesi Bilgisayar Mühendisliği bitirme projesi kapsamında geliştirilmiştir.
 
 📬 İletişim
