@@ -1,5 +1,6 @@
 🎤 VoiceID | Konuşmacı Tanıma Sistemi
 
+
 ⚠️ English version is below ⬇️
 
 
@@ -7,6 +8,7 @@
 
 VoiceID, FastAPI ve Android ile geliştirilen, ses verisiyle kullanıcıyı tanıyabilen gerçek zamanlı bir konuşmacı tanıma sistemidir.
 Kullanıcı ses kaydı yapar, bu kayıt Python tabanlı sunucuya gönderilir, ECAPA-TDNN modeliyle analiz edilir ve kim olduğu tahmin edilir.
+
 
 🚀 Özellikler
 
@@ -23,6 +25,7 @@ Kullanıcı ses kaydı yapar, bu kayıt Python tabanlı sunucuya gönderilir, EC
 🛠️ Kullanıcı ve embedding verisi JSON dosyalarında saklanır
 
 
+
 🛠️ Kullanılan Teknolojiler
 Android Studio (Java/Kotlin)
 
@@ -35,6 +38,7 @@ HuggingFace pretrained model
 JSON tabanlı veri yönetimi
 
 
+
 📌 Not
 
 Bu proje Konya Teknik Üniversitesi Bilgisayar Mühendisliği bitirme projesi kapsamında geliştirilmiştir.
@@ -44,6 +48,8 @@ Bu proje Konya Teknik Üniversitesi Bilgisayar Mühendisliği bitirme projesi ka
 📧 emiryildirimlar@ogr.karatay.edu.tr
 
 👨‍💻 Geliştirici: Emir Yıldırımlar
+
+
 
 🇬🇧 English
 VoiceID is a real-time speaker recognition system developed using FastAPI and Android.
